@@ -1,0 +1,13 @@
+TARGETNAME=xnsdrw
+TARGETPATH=..\..\Targets\Release\Bin
+TARGETTYPE=DRIVER
+
+TARGETLIBS=$(DDK_LIB_PATH)\ndis.lib
+C_DEFINES=$(C_DEFINES) -DNDIS50 
+
+SOURCES =                   \
+    XNSPacketLog.c          \
+    XNSPacketMain.c         \
+    XNSPacketOpenClose.c    \
+    XNSPacketRead.c         \
+    XNSPacketWrite.c        \

@@ -1,0 +1,5 @@
+DAWN SOURCE AND BINARY CODE END USER LICENSE AGREEMENT
+
+"Don Woodward grants you the non-exclusive right to use
+ Dawn Source and/or Binaries for non-commercial,
+ educational use only."

@@ -1,0 +1,49 @@
+MESA_ROOT_DIR := /root/Mesa
+LIB_INSTALL_DIR := /usr/local/lib/
+
+PRINCOPS_CFLAGS := -D_MP_INLINE_OFF -D_MP_BY_THE_BOOK
+
+MESA_INCLUDE_DIR := $(MESA_ROOT_DIR)/Include
+MESA_SOURCE_DIR := $(MESA_ROOT_DIR)/Source
+MESA_TARGET_DIR := $(MESA_ROOT_DIR)/Targets
+PRINCOPS_SOURCE_DIR := $(MESA_SOURCE_DIR)/PrincOps
+
+CC := gcc
+CFLAGS := -I$(MESA_INCLUDE_DIR) -DX86LINUX -Wall -Werror $(PRINCOPS_CFLAGS)
+AR := ar
+AROPTS := cr
+LD := ld
+LDFLAGS := -shared
+INSTALL := /usr/bin/install
+
+PRINCOPS_SOURCES := $(shell find $(PRINCOPS_SOURCE_DIR) -name '*.c')
+PRINCOPS_OBJECTS := $(patsubst %.c, %.o, $(PRINCOPS_SOURCES))
+PRINCOPS_LIB := libPrincOps.a
+PRINCOPS_SOLIB := libPrincOps.so
+
+# Master targets
+all:	PrincOps
+
+install: all
+	$(INSTALL) -p -m 0644 $(PRINCOPS_LIB) $(LIB_INSTALL_DIR)$(PRINCOPS_LIB)
+	$(INSTALL) -p -m 0644 $(PRINCOPS_SOLIB) $(LIB_INSTALL_DIR)$(PRINCOPS_SOLIB)
+
+rebuild: clean install
+
+clean:
+	rm -rf $(PRINCOPS_OBJECTS) $(PRINCOPS_LIB) $(PRINCOPS_SOLIB)
+
+# Build targets
+PrincOps: $(PRINCOPS_OBJECTS) $(PRINCOPS_LIB) $(PRINCOPS_SOLIB)
+
+$(PRINCOPS_LIB):
+	rm -f $(PRINCOPS_LIB)
+	$(AR) $(AROPTS) $(PRINCOPS_LIB) $(PRINCOPS_OBJECTS)
+
+$(PRINCOPS_SOLIB):
+	$(LD) $(LDFLAGS) $(PRINCOPS_OBJECTS) -o $(PRINCOPS_SOLIB)
+
+# Rules
+%.o : %.c
+	$(CC) $(CFLAGS) -o $@ -c $<
+

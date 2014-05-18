@@ -1,0 +1,91 @@
+;-------------------------------------------------------------------------
+; xnsdrw.inf - NDIS 5.0 XNS Protocol Driver for Win2K
+;            - Copyright (c) 2001, Don Woodward
+;
+;            - created from PACKET.INF - Microsoft Sample Protocol Driver
+;            - PACKET.INF Copyright (c) 1993-1999, Microsoft Corporation
+;-------------------------------------------------------------------------
+[version]
+Signature   = "$Windows NT$"
+Class       = NetTrans
+ClassGUID   = {4d36e975-e325-11ce-bfc1-08002be10318}
+Provider    = %woodward.org%
+DriverVer   = 05/18/2001,5.00.2064
+
+[Manufacturer]
+%woodward.org%=woodward.org
+
+[woodward.org]
+%PACKET_Desc%=Install, XNSDRW
+
+;-------------------------------------------------------------------------
+; Installation Section
+;-------------------------------------------------------------------------
+[Install]
+AddReg=Inst_Ndi
+Characteristics=0 ; Has no characterstic
+CopyFiles=CpyFiles_Sys
+
+;-------------------------------------------------------------------------
+; Ndi installation support
+;-------------------------------------------------------------------------
+[Inst_Ndi]
+HKR,Ndi,Service,,"XNSDRW"
+HKR,Ndi,HelpText,,%PACKET_HelpText%
+HKR, Ndi\Interfaces, UpperRange,, noupper
+HKR,"Ndi\Interfaces","LowerRange",,"ndis5,ndis4"
+
+;-------------------------------------------------------------------------
+; Service installation support
+;-------------------------------------------------------------------------
+[Install.Services]
+AddService=XNSDRW,,XNSDRW_Service_Inst
+
+[XNSDRW_Service_Inst]
+DisplayName     = %PACKET_Desc%
+ServiceType     = 1 ;SERVICE_KERNEL_DRIVER
+StartType       = 2 ;SERVICE_AUTO_START
+ErrorControl    = 1 ;SERVICE_ERROR_NORMAL
+ServiceBinary   = %12%\xnsdrw.sys
+LoadOrderGroup  = "PNP_TDI"
+AddReg          = AddReg_XNSDRW_Service_Inst
+Description     = %PACKET_Desc%
+
+[AddReg_XNSDRW_Service_Inst]
+HKLM,"System\CurrentControlSet\Services\XNSDRW","TextModeFlags",%REG_DWORD%,0x0001
+HKR,"Parameters","URL",,"http://www.woodward.org"
+
+;-------------------------------------------------------------------------
+; Support for removal of static registry settings
+;-------------------------------------------------------------------------
+[Install.Remove]
+DelReg=Del_Static_Reg
+
+[Install.Remove.Services]
+DelService=XNSDRW
+
+[Del_Static_Reg]
+HKLM,"System\CurrentControlSet\Services\XNSDRW","TextModeFlags"
+
+;-------------------------------------------------------------------------
+; Declare Destination Directories for file copy/deletion
+;-------------------------------------------------------------------------
+[DestinationDirs]
+CpyFiles_Sys    = 12    ; DIRID_DRIVERS
+
+
+;-------------------------------------------------------------------------
+; Files to Copy/Delete - Referenced by Install and Remove sections above
+;-------------------------------------------------------------------------
+[CpyFiles_Sys]
+xnsdrw.sys,,,2
+
+[Strings]
+woodward.org = "woodward.org"
+PACKET_Desc = "woodward.org XNS Packet Driver"
+PACKET_HelpText = "Help preserve vintage Xerox Workstations and Servers.  http://www.woodward.org"
+REG_DWORD = 0x10001
+
+
+
+
