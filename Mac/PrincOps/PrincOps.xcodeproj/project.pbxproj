@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14DBCADE192942E300F88F76 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DBCADD192942E300F88F76 /* Cocoa.framework */; };
+		14DBCAE8192942E300F88F76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14DBCAE6192942E300F88F76 /* InfoPlist.strings */; };
+		14DBCAF3192942E300F88F76 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DBCAF2192942E300F88F76 /* XCTest.framework */; };
+		14DBCAF4192942E300F88F76 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DBCADD192942E300F88F76 /* Cocoa.framework */; };
+		14DBCAF7192942E300F88F76 /* PrincOps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DBCADA192942E300F88F76 /* PrincOps.framework */; };
+		14DBCAFD192942E300F88F76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14DBCAFB192942E300F88F76 /* InfoPlist.strings */; };
+		14DBCAFF192942E300F88F76 /* PrincOpsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DBCAFE192942E300F88F76 /* PrincOpsTests.m */; };
+		14DBCB141929430700F88F76 /* MP__InlineGlue.c in Sources */ = {isa = PBXBuildFile; fileRef = 14DBCB081929430700F88F76 /* MP__InlineGlue.c */; };
+		14DBCB151929430700F88F76 /* MP_AssignmentInstructions.c in Sources */ = {isa = PBXBuildFile; fileRef = 14DBCB091929430700F88F76 /* MP_AssignmentInstructions.c */; };
+		14DBCB161929430700F88F76 /* MP_BlockTransfers.c in Sources */ = {isa = PBXBuildFile; fileRef = 14DBCB0A1929430700F88F76 /* MP_BlockTransfers.c */; };
+		14DBCB171929430700F88F76 /* MP_ControlTransfers.c in Sources */ = {isa = PBXBuildFile; fileRef = 14DBCB0B1929430700F88F76 /* MP_ControlTransfers.c */; };
+		14DBCB181929430700F88F76 /* MP_InstructionInterpreter.c in Sources */ = {isa = PBXBuildFile; fileRef = 14DBCB0C1929430700F88F76 /* MP_InstructionInterpreter.c */; };
+		14DBCB191929430700F88F76 /* MP_JumpInstructions.c in Sources */ = {isa = PBXBuildFile; fileRef = 14DBCB0D1929430700F88F76 /* MP_JumpInstructions.c */; };
+		14DBCB1A1929430700F88F76 /* MP_MemoryOrganization.c in Sources */ = {isa = PBXBuildFile; fileRef = 14DBCB0E1929430700F88F76 /* MP_MemoryOrganization.c */; };
+		14DBCB1B1929430700F88F76 /* MP_Processes.c in Sources */ = {isa = PBXBuildFile; fileRef = 14DBCB0F1929430700F88F76 /* MP_Processes.c */; };
+		14DBCB1C1929430700F88F76 /* MP_ProcessorStruct.c in Sources */ = {isa = PBXBuildFile; fileRef = 14DBCB101929430700F88F76 /* MP_ProcessorStruct.c */; };
+		14DBCB1D1929430700F88F76 /* MP_StackInstructions.c in Sources */ = {isa = PBXBuildFile; fileRef = 14DBCB111929430700F88F76 /* MP_StackInstructions.c */; };
+		14DBCB1E1929430700F88F76 /* MP_Undocumented.c in Sources */ = {isa = PBXBuildFile; fileRef = 14DBCB121929430700F88F76 /* MP_Undocumented.c */; };
+		14DBCB1F1929430700F88F76 /* PrincOps.c in Sources */ = {isa = PBXBuildFile; fileRef = 14DBCB131929430700F88F76 /* PrincOps.c */; };
+		14DBCB71192943F000F88F76 /* MP_AssignmentInstructions.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB57192943F000F88F76 /* MP_AssignmentInstructions.h */; };
+		14DBCB72192943F000F88F76 /* MP_AssignmentInstructions_Inline.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB58192943F000F88F76 /* MP_AssignmentInstructions_Inline.h */; };
+		14DBCB73192943F000F88F76 /* MP_BlockTransfers.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB59192943F000F88F76 /* MP_BlockTransfers.h */; };
+		14DBCB74192943F000F88F76 /* MP_BlockTransfers_Inline.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB5A192943F000F88F76 /* MP_BlockTransfers_Inline.h */; };
+		14DBCB75192943F000F88F76 /* MP_ControlTransfers.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB5B192943F000F88F76 /* MP_ControlTransfers.h */; };
+		14DBCB76192943F000F88F76 /* MP_ControlTransfers_Inline.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB5C192943F000F88F76 /* MP_ControlTransfers_Inline.h */; };
+		14DBCB77192943F000F88F76 /* MP_DataTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB5D192943F000F88F76 /* MP_DataTypes.h */; };
+		14DBCB78192943F000F88F76 /* MP_DataTypes_Inline.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB5E192943F000F88F76 /* MP_DataTypes_Inline.h */; };
+		14DBCB79192943F000F88F76 /* MP_InstructionInterpreter.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB5F192943F000F88F76 /* MP_InstructionInterpreter.h */; };
+		14DBCB7A192943F000F88F76 /* MP_InstructionInterpreter_Inline.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB60192943F000F88F76 /* MP_InstructionInterpreter_Inline.h */; };
+		14DBCB7B192943F000F88F76 /* MP_JumpInstructions.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB61192943F000F88F76 /* MP_JumpInstructions.h */; };
+		14DBCB7C192943F000F88F76 /* MP_JumpInstructions_Inline.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB62192943F000F88F76 /* MP_JumpInstructions_Inline.h */; };
+		14DBCB7D192943F000F88F76 /* MP_MemoryOrganization.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB63192943F000F88F76 /* MP_MemoryOrganization.h */; };
+		14DBCB7E192943F000F88F76 /* MP_MemoryOrganization_Inline.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB64192943F000F88F76 /* MP_MemoryOrganization_Inline.h */; };
+		14DBCB7F192943F000F88F76 /* MP_MesaTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB65192943F000F88F76 /* MP_MesaTypes.h */; };
+		14DBCB80192943F000F88F76 /* MP_Processes.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB66192943F000F88F76 /* MP_Processes.h */; };
+		14DBCB81192943F000F88F76 /* MP_Processes_Inline.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB67192943F000F88F76 /* MP_Processes_Inline.h */; };
+		14DBCB82192943F000F88F76 /* MP_ProcessorStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB68192943F000F88F76 /* MP_ProcessorStruct.h */; };
+		14DBCB83192943F000F88F76 /* MP_ProcessorStruct_Inline.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB69192943F000F88F76 /* MP_ProcessorStruct_Inline.h */; };
+		14DBCB84192943F000F88F76 /* MP_StackInstructions.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB6A192943F000F88F76 /* MP_StackInstructions.h */; };
+		14DBCB85192943F000F88F76 /* MP_StackInstructions_Inline.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB6B192943F000F88F76 /* MP_StackInstructions_Inline.h */; };
+		14DBCB86192943F000F88F76 /* MP_Undocumented.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB6C192943F000F88F76 /* MP_Undocumented.h */; };
+		14DBCB87192943F000F88F76 /* MP_Undocumented_Inline.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB6D192943F000F88F76 /* MP_Undocumented_Inline.h */; };
+		14DBCB88192943F000F88F76 /* PrincOps.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB6E192943F000F88F76 /* PrincOps.h */; };
+		14DBCB89192943F000F88F76 /* PrincOps_Microcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB6F192943F000F88F76 /* PrincOps_Microcode.h */; };
+		14DBCB8A192943F000F88F76 /* PrincOps_PlatformTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DBCB70192943F000F88F76 /* PrincOps_PlatformTypes.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14DBCAF5192942E300F88F76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14DBCAD1192942E300F88F76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14DBCAD9192942E300F88F76;
+			remoteInfo = PrincOps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14DBCADA192942E300F88F76 /* PrincOps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrincOps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14DBCADD192942E300F88F76 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		14DBCAE0192942E300F88F76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14DBCAE1192942E300F88F76 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		14DBCAE2192942E300F88F76 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		14DBCAE5192942E300F88F76 /* PrincOps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrincOps-Info.plist"; sourceTree = "<group>"; };
+		14DBCAE7192942E300F88F76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14DBCAE9192942E300F88F76 /* PrincOps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrincOps-Prefix.pch"; sourceTree = "<group>"; };
+		14DBCAF1192942E300F88F76 /* PrincOpsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrincOpsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14DBCAF2192942E300F88F76 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		14DBCAFA192942E300F88F76 /* PrincOpsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrincOpsTests-Info.plist"; sourceTree = "<group>"; };
+		14DBCAFC192942E300F88F76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14DBCAFE192942E300F88F76 /* PrincOpsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrincOpsTests.m; sourceTree = "<group>"; };
+		14DBCB081929430700F88F76 /* MP__InlineGlue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MP__InlineGlue.c; sourceTree = "<group>"; };
+		14DBCB091929430700F88F76 /* MP_AssignmentInstructions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MP_AssignmentInstructions.c; sourceTree = "<group>"; };
+		14DBCB0A1929430700F88F76 /* MP_BlockTransfers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MP_BlockTransfers.c; sourceTree = "<group>"; };
+		14DBCB0B1929430700F88F76 /* MP_ControlTransfers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MP_ControlTransfers.c; sourceTree = "<group>"; };
+		14DBCB0C1929430700F88F76 /* MP_InstructionInterpreter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MP_InstructionInterpreter.c; sourceTree = "<group>"; };
+		14DBCB0D1929430700F88F76 /* MP_JumpInstructions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MP_JumpInstructions.c; sourceTree = "<group>"; };
+		14DBCB0E1929430700F88F76 /* MP_MemoryOrganization.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MP_MemoryOrganization.c; sourceTree = "<group>"; };
+		14DBCB0F1929430700F88F76 /* MP_Processes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MP_Processes.c; sourceTree = "<group>"; };
+		14DBCB101929430700F88F76 /* MP_ProcessorStruct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MP_ProcessorStruct.c; sourceTree = "<group>"; };
+		14DBCB111929430700F88F76 /* MP_StackInstructions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MP_StackInstructions.c; sourceTree = "<group>"; };
+		14DBCB121929430700F88F76 /* MP_Undocumented.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MP_Undocumented.c; sourceTree = "<group>"; };
+		14DBCB131929430700F88F76 /* PrincOps.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PrincOps.c; sourceTree = "<group>"; };
+		14DBCB57192943F000F88F76 /* MP_AssignmentInstructions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_AssignmentInstructions.h; sourceTree = "<group>"; };
+		14DBCB58192943F000F88F76 /* MP_AssignmentInstructions_Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_AssignmentInstructions_Inline.h; sourceTree = "<group>"; };
+		14DBCB59192943F000F88F76 /* MP_BlockTransfers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_BlockTransfers.h; sourceTree = "<group>"; };
+		14DBCB5A192943F000F88F76 /* MP_BlockTransfers_Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_BlockTransfers_Inline.h; sourceTree = "<group>"; };
+		14DBCB5B192943F000F88F76 /* MP_ControlTransfers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_ControlTransfers.h; sourceTree = "<group>"; };
+		14DBCB5C192943F000F88F76 /* MP_ControlTransfers_Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_ControlTransfers_Inline.h; sourceTree = "<group>"; };
+		14DBCB5D192943F000F88F76 /* MP_DataTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_DataTypes.h; sourceTree = "<group>"; };
+		14DBCB5E192943F000F88F76 /* MP_DataTypes_Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_DataTypes_Inline.h; sourceTree = "<group>"; };
+		14DBCB5F192943F000F88F76 /* MP_InstructionInterpreter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_InstructionInterpreter.h; sourceTree = "<group>"; };
+		14DBCB60192943F000F88F76 /* MP_InstructionInterpreter_Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_InstructionInterpreter_Inline.h; sourceTree = "<group>"; };
+		14DBCB61192943F000F88F76 /* MP_JumpInstructions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_JumpInstructions.h; sourceTree = "<group>"; };
+		14DBCB62192943F000F88F76 /* MP_JumpInstructions_Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_JumpInstructions_Inline.h; sourceTree = "<group>"; };
+		14DBCB63192943F000F88F76 /* MP_MemoryOrganization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_MemoryOrganization.h; sourceTree = "<group>"; };
+		14DBCB64192943F000F88F76 /* MP_MemoryOrganization_Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_MemoryOrganization_Inline.h; sourceTree = "<group>"; };
+		14DBCB65192943F000F88F76 /* MP_MesaTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_MesaTypes.h; sourceTree = "<group>"; };
+		14DBCB66192943F000F88F76 /* MP_Processes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_Processes.h; sourceTree = "<group>"; };
+		14DBCB67192943F000F88F76 /* MP_Processes_Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_Processes_Inline.h; sourceTree = "<group>"; };
+		14DBCB68192943F000F88F76 /* MP_ProcessorStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_ProcessorStruct.h; sourceTree = "<group>"; };
+		14DBCB69192943F000F88F76 /* MP_ProcessorStruct_Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_ProcessorStruct_Inline.h; sourceTree = "<group>"; };
+		14DBCB6A192943F000F88F76 /* MP_StackInstructions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_StackInstructions.h; sourceTree = "<group>"; };
+		14DBCB6B192943F000F88F76 /* MP_StackInstructions_Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_StackInstructions_Inline.h; sourceTree = "<group>"; };
+		14DBCB6C192943F000F88F76 /* MP_Undocumented.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_Undocumented.h; sourceTree = "<group>"; };
+		14DBCB6D192943F000F88F76 /* MP_Undocumented_Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_Undocumented_Inline.h; sourceTree = "<group>"; };
+		14DBCB6E192943F000F88F76 /* PrincOps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrincOps.h; sourceTree = "<group>"; };
+		14DBCB6F192943F000F88F76 /* PrincOps_Microcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrincOps_Microcode.h; sourceTree = "<group>"; };
+		14DBCB70192943F000F88F76 /* PrincOps_PlatformTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrincOps_PlatformTypes.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14DBCAD6192942E300F88F76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DBCADE192942E300F88F76 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DBCAEE192942E300F88F76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DBCAF4192942E300F88F76 /* Cocoa.framework in Frameworks */,
+				14DBCAF7192942E300F88F76 /* PrincOps.framework in Frameworks */,
+				14DBCAF3192942E300F88F76 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14DBCAD0192942E300F88F76 = {
+			isa = PBXGroup;
+			children = (
+				14DBCAE3192942E300F88F76 /* PrincOps */,
+				14DBCAF8192942E300F88F76 /* PrincOpsTests */,
+				14DBCADC192942E300F88F76 /* Frameworks */,
+				14DBCADB192942E300F88F76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14DBCADB192942E300F88F76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14DBCADA192942E300F88F76 /* PrincOps.framework */,
+				14DBCAF1192942E300F88F76 /* PrincOpsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14DBCADC192942E300F88F76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14DBCADD192942E300F88F76 /* Cocoa.framework */,
+				14DBCAF2192942E300F88F76 /* XCTest.framework */,
+				14DBCADF192942E300F88F76 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14DBCADF192942E300F88F76 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14DBCAE0192942E300F88F76 /* Foundation.framework */,
+				14DBCAE1192942E300F88F76 /* CoreData.framework */,
+				14DBCAE2192942E300F88F76 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		14DBCAE3192942E300F88F76 /* PrincOps */ = {
+			isa = PBXGroup;
+			children = (
+				14DBCB55192943F000F88F76 /* PrincOps */,
+				14DBCB081929430700F88F76 /* MP__InlineGlue.c */,
+				14DBCB091929430700F88F76 /* MP_AssignmentInstructions.c */,
+				14DBCB0A1929430700F88F76 /* MP_BlockTransfers.c */,
+				14DBCB0B1929430700F88F76 /* MP_ControlTransfers.c */,
+				14DBCB0C1929430700F88F76 /* MP_InstructionInterpreter.c */,
+				14DBCB0D1929430700F88F76 /* MP_JumpInstructions.c */,
+				14DBCB0E1929430700F88F76 /* MP_MemoryOrganization.c */,
+				14DBCB0F1929430700F88F76 /* MP_Processes.c */,
+				14DBCB101929430700F88F76 /* MP_ProcessorStruct.c */,
+				14DBCB111929430700F88F76 /* MP_StackInstructions.c */,
+				14DBCB121929430700F88F76 /* MP_Undocumented.c */,
+				14DBCB131929430700F88F76 /* PrincOps.c */,
+				14DBCAE4192942E300F88F76 /* Supporting Files */,
+			);
+			path = PrincOps;
+			sourceTree = "<group>";
+		};
+		14DBCAE4192942E300F88F76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14DBCAE5192942E300F88F76 /* PrincOps-Info.plist */,
+				14DBCAE6192942E300F88F76 /* InfoPlist.strings */,
+				14DBCAE9192942E300F88F76 /* PrincOps-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14DBCAF8192942E300F88F76 /* PrincOpsTests */ = {
+			isa = PBXGroup;
+			children = (
+				14DBCAFE192942E300F88F76 /* PrincOpsTests.m */,
+				14DBCAF9192942E300F88F76 /* Supporting Files */,
+			);
+			path = PrincOpsTests;
+			sourceTree = "<group>";
+		};
+		14DBCAF9192942E300F88F76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14DBCAFA192942E300F88F76 /* PrincOpsTests-Info.plist */,
+				14DBCAFB192942E300F88F76 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14DBCB55192943F000F88F76 /* PrincOps */ = {
+			isa = PBXGroup;
+			children = (
+				14DBCB56192943F000F88F76 /* MP */,
+				14DBCB6E192943F000F88F76 /* PrincOps.h */,
+				14DBCB6F192943F000F88F76 /* PrincOps_Microcode.h */,
+				14DBCB70192943F000F88F76 /* PrincOps_PlatformTypes.h */,
+			);
+			path = PrincOps;
+			sourceTree = "<group>";
+		};
+		14DBCB56192943F000F88F76 /* MP */ = {
+			isa = PBXGroup;
+			children = (
+				14DBCB57192943F000F88F76 /* MP_AssignmentInstructions.h */,
+				14DBCB58192943F000F88F76 /* MP_AssignmentInstructions_Inline.h */,
+				14DBCB59192943F000F88F76 /* MP_BlockTransfers.h */,
+				14DBCB5A192943F000F88F76 /* MP_BlockTransfers_Inline.h */,
+				14DBCB5B192943F000F88F76 /* MP_ControlTransfers.h */,
+				14DBCB5C192943F000F88F76 /* MP_ControlTransfers_Inline.h */,
+				14DBCB5D192943F000F88F76 /* MP_DataTypes.h */,
+				14DBCB5E192943F000F88F76 /* MP_DataTypes_Inline.h */,
+				14DBCB5F192943F000F88F76 /* MP_InstructionInterpreter.h */,
+				14DBCB60192943F000F88F76 /* MP_InstructionInterpreter_Inline.h */,
+				14DBCB61192943F000F88F76 /* MP_JumpInstructions.h */,
+				14DBCB62192943F000F88F76 /* MP_JumpInstructions_Inline.h */,
+				14DBCB63192943F000F88F76 /* MP_MemoryOrganization.h */,
+				14DBCB64192943F000F88F76 /* MP_MemoryOrganization_Inline.h */,
+				14DBCB65192943F000F88F76 /* MP_MesaTypes.h */,
+				14DBCB66192943F000F88F76 /* MP_Processes.h */,
+				14DBCB67192943F000F88F76 /* MP_Processes_Inline.h */,
+				14DBCB68192943F000F88F76 /* MP_ProcessorStruct.h */,
+				14DBCB69192943F000F88F76 /* MP_ProcessorStruct_Inline.h */,
+				14DBCB6A192943F000F88F76 /* MP_StackInstructions.h */,
+				14DBCB6B192943F000F88F76 /* MP_StackInstructions_Inline.h */,
+				14DBCB6C192943F000F88F76 /* MP_Undocumented.h */,
+				14DBCB6D192943F000F88F76 /* MP_Undocumented_Inline.h */,
+			);
+			path = MP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14DBCAD7192942E300F88F76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DBCB77192943F000F88F76 /* MP_DataTypes.h in Headers */,
+				14DBCB85192943F000F88F76 /* MP_StackInstructions_Inline.h in Headers */,
+				14DBCB7F192943F000F88F76 /* MP_MesaTypes.h in Headers */,
+				14DBCB7C192943F000F88F76 /* MP_JumpInstructions_Inline.h in Headers */,
+				14DBCB7E192943F000F88F76 /* MP_MemoryOrganization_Inline.h in Headers */,
+				14DBCB75192943F000F88F76 /* MP_ControlTransfers.h in Headers */,
+				14DBCB7D192943F000F88F76 /* MP_MemoryOrganization.h in Headers */,
+				14DBCB7B192943F000F88F76 /* MP_JumpInstructions.h in Headers */,
+				14DBCB89192943F000F88F76 /* PrincOps_Microcode.h in Headers */,
+				14DBCB84192943F000F88F76 /* MP_StackInstructions.h in Headers */,
+				14DBCB80192943F000F88F76 /* MP_Processes.h in Headers */,
+				14DBCB81192943F000F88F76 /* MP_Processes_Inline.h in Headers */,
+				14DBCB76192943F000F88F76 /* MP_ControlTransfers_Inline.h in Headers */,
+				14DBCB72192943F000F88F76 /* MP_AssignmentInstructions_Inline.h in Headers */,
+				14DBCB78192943F000F88F76 /* MP_DataTypes_Inline.h in Headers */,
+				14DBCB8A192943F000F88F76 /* PrincOps_PlatformTypes.h in Headers */,
+				14DBCB86192943F000F88F76 /* MP_Undocumented.h in Headers */,
+				14DBCB74192943F000F88F76 /* MP_BlockTransfers_Inline.h in Headers */,
+				14DBCB71192943F000F88F76 /* MP_AssignmentInstructions.h in Headers */,
+				14DBCB83192943F000F88F76 /* MP_ProcessorStruct_Inline.h in Headers */,
+				14DBCB79192943F000F88F76 /* MP_InstructionInterpreter.h in Headers */,
+				14DBCB82192943F000F88F76 /* MP_ProcessorStruct.h in Headers */,
+				14DBCB7A192943F000F88F76 /* MP_InstructionInterpreter_Inline.h in Headers */,
+				14DBCB87192943F000F88F76 /* MP_Undocumented_Inline.h in Headers */,
+				14DBCB88192943F000F88F76 /* PrincOps.h in Headers */,
+				14DBCB73192943F000F88F76 /* MP_BlockTransfers.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14DBCAD9192942E300F88F76 /* PrincOps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14DBCB02192942E300F88F76 /* Build configuration list for PBXNativeTarget "PrincOps" */;
+			buildPhases = (
+				14DBCAD5192942E300F88F76 /* Sources */,
+				14DBCAD6192942E300F88F76 /* Frameworks */,
+				14DBCAD7192942E300F88F76 /* Headers */,
+				14DBCAD8192942E300F88F76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrincOps;
+			productName = PrincOps;
+			productReference = 14DBCADA192942E300F88F76 /* PrincOps.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		14DBCAF0192942E300F88F76 /* PrincOpsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14DBCB05192942E300F88F76 /* Build configuration list for PBXNativeTarget "PrincOpsTests" */;
+			buildPhases = (
+				14DBCAED192942E300F88F76 /* Sources */,
+				14DBCAEE192942E300F88F76 /* Frameworks */,
+				14DBCAEF192942E300F88F76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14DBCAF6192942E300F88F76 /* PBXTargetDependency */,
+			);
+			name = PrincOpsTests;
+			productName = PrincOpsTests;
+			productReference = 14DBCAF1192942E300F88F76 /* PrincOpsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14DBCAD1192942E300F88F76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Open Logic Corporation";
+				TargetAttributes = {
+					14DBCAF0192942E300F88F76 = {
+						TestTargetID = 14DBCAD9192942E300F88F76;
+					};
+				};
+			};
+			buildConfigurationList = 14DBCAD4192942E300F88F76 /* Build configuration list for PBXProject "PrincOps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 14DBCAD0192942E300F88F76;
+			productRefGroup = 14DBCADB192942E300F88F76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14DBCAD9192942E300F88F76 /* PrincOps */,
+				14DBCAF0192942E300F88F76 /* PrincOpsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14DBCAD8192942E300F88F76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DBCAE8192942E300F88F76 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DBCAEF192942E300F88F76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DBCAFD192942E300F88F76 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14DBCAD5192942E300F88F76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DBCB191929430700F88F76 /* MP_JumpInstructions.c in Sources */,
+				14DBCB1E1929430700F88F76 /* MP_Undocumented.c in Sources */,
+				14DBCB171929430700F88F76 /* MP_ControlTransfers.c in Sources */,
+				14DBCB1A1929430700F88F76 /* MP_MemoryOrganization.c in Sources */,
+				14DBCB1B1929430700F88F76 /* MP_Processes.c in Sources */,
+				14DBCB141929430700F88F76 /* MP__InlineGlue.c in Sources */,
+				14DBCB151929430700F88F76 /* MP_AssignmentInstructions.c in Sources */,
+				14DBCB1D1929430700F88F76 /* MP_StackInstructions.c in Sources */,
+				14DBCB181929430700F88F76 /* MP_InstructionInterpreter.c in Sources */,
+				14DBCB1F1929430700F88F76 /* PrincOps.c in Sources */,
+				14DBCB1C1929430700F88F76 /* MP_ProcessorStruct.c in Sources */,
+				14DBCB161929430700F88F76 /* MP_BlockTransfers.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DBCAED192942E300F88F76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DBCAFF192942E300F88F76 /* PrincOpsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14DBCAF6192942E300F88F76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14DBCAD9192942E300F88F76 /* PrincOps */;
+			targetProxy = 14DBCAF5192942E300F88F76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14DBCAE6192942E300F88F76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14DBCAE7192942E300F88F76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		14DBCAFB192942E300F88F76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14DBCAFC192942E300F88F76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14DBCB00192942E300F88F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		14DBCB01192942E300F88F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		14DBCB03192942E300F88F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrincOps/PrincOps-Prefix.pch";
+				INFOPLIST_FILE = "PrincOps/PrincOps-Info.plist";
+				OTHER_CFLAGS = "-D_MP_INLINE_OFF";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/PrincOps/PrincOps";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		14DBCB04192942E300F88F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrincOps/PrincOps-Prefix.pch";
+				INFOPLIST_FILE = "PrincOps/PrincOps-Info.plist";
+				OTHER_CFLAGS = "-D_MP_INLINE_OFF";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/PrincOps/PrincOps";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		14DBCB06192942E300F88F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PrincOps.framework/Versions/A/PrincOps";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrincOps/PrincOps-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PrincOpsTests/PrincOpsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		14DBCB07192942E300F88F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PrincOps.framework/Versions/A/PrincOps";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrincOps/PrincOps-Prefix.pch";
+				INFOPLIST_FILE = "PrincOpsTests/PrincOpsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14DBCAD4192942E300F88F76 /* Build configuration list for PBXProject "PrincOps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DBCB00192942E300F88F76 /* Debug */,
+				14DBCB01192942E300F88F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14DBCB02192942E300F88F76 /* Build configuration list for PBXNativeTarget "PrincOps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DBCB03192942E300F88F76 /* Debug */,
+				14DBCB04192942E300F88F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14DBCB05192942E300F88F76 /* Build configuration list for PBXNativeTarget "PrincOpsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DBCB06192942E300F88F76 /* Debug */,
+				14DBCB07192942E300F88F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14DBCAD1192942E300F88F76 /* Project object */;
+}

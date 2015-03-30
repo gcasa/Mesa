@@ -7,6 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14AE2EBD1AC7FE050094B1AD /* MP__InlineGlue.c in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2E931AC7FE040094B1AD /* MP__InlineGlue.c */; };
+		14AE2EBE1AC7FE050094B1AD /* MP_AssignmentInstructions.c in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2E941AC7FE040094B1AD /* MP_AssignmentInstructions.c */; };
+		14AE2EBF1AC7FE050094B1AD /* MP_BlockTransfers.c in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2E951AC7FE040094B1AD /* MP_BlockTransfers.c */; };
+		14AE2EC01AC7FE050094B1AD /* MP_ControlTransfers.c in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2E961AC7FE040094B1AD /* MP_ControlTransfers.c */; };
+		14AE2EC11AC7FE050094B1AD /* MP_InstructionInterpreter.c in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2E971AC7FE040094B1AD /* MP_InstructionInterpreter.c */; };
+		14AE2EC21AC7FE050094B1AD /* MP_JumpInstructions.c in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2E981AC7FE040094B1AD /* MP_JumpInstructions.c */; };
+		14AE2EC31AC7FE050094B1AD /* MP_MemoryOrganization.c in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2E991AC7FE040094B1AD /* MP_MemoryOrganization.c */; };
+		14AE2EC41AC7FE050094B1AD /* MP_Processes.c in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2E9A1AC7FE040094B1AD /* MP_Processes.c */; };
+		14AE2EC51AC7FE050094B1AD /* MP_ProcessorStruct.c in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2E9B1AC7FE040094B1AD /* MP_ProcessorStruct.c */; };
+		14AE2EC61AC7FE050094B1AD /* MP_StackInstructions.c in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2E9C1AC7FE050094B1AD /* MP_StackInstructions.c */; };
+		14AE2EC71AC7FE050094B1AD /* MP_Undocumented.c in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2E9D1AC7FE050094B1AD /* MP_Undocumented.c */; };
+		14AE2EC91AC7FE050094B1AD /* PrincOps.c in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2EBC1AC7FE050094B1AD /* PrincOps.c */; };
+		14AE2EDF1AC8FDC20094B1AD /* MesaMicrocode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2ED91AC8FDC20094B1AD /* MesaMicrocode.cpp */; };
+		14AE2EE01AC8FDC20094B1AD /* MesaMicrocodeOps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2EDB1AC8FDC20094B1AD /* MesaMicrocodeOps.cpp */; };
+		14AE2EE11AC8FDC20094B1AD /* MesaProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2EDD1AC8FDC20094B1AD /* MesaProcessor.cpp */; };
+		14AE2EFE1AC8FF330094B1AD /* AgentBeep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2EE21AC8FF330094B1AD /* AgentBeep.cpp */; };
+		14AE2EFF1AC8FF330094B1AD /* AgentDisk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2EE41AC8FF330094B1AD /* AgentDisk.cpp */; };
+		14AE2F001AC8FF330094B1AD /* AgentDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2EE61AC8FF330094B1AD /* AgentDisplay.cpp */; };
+		14AE2F011AC8FF330094B1AD /* AgentFloppy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2EE81AC8FF330094B1AD /* AgentFloppy.cpp */; };
+		14AE2F021AC8FF330094B1AD /* AgentKeyboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2EEA1AC8FF330094B1AD /* AgentKeyboard.cpp */; };
+		14AE2F031AC8FF330094B1AD /* AgentMouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2EEC1AC8FF330094B1AD /* AgentMouse.cpp */; };
+		14AE2F041AC8FF330094B1AD /* AgentNetwork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2EEE1AC8FF330094B1AD /* AgentNetwork.cpp */; };
+		14AE2F051AC8FF330094B1AD /* AgentNetwork.orig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2EF01AC8FF330094B1AD /* AgentNetwork.orig.cpp */; };
+		14AE2F061AC8FF330094B1AD /* AgentNetworkNew.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2EF11AC8FF330094B1AD /* AgentNetworkNew.cpp */; };
+		14AE2F071AC8FF330094B1AD /* AgentParallel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2EF21AC8FF330094B1AD /* AgentParallel.cpp */; };
+		14AE2F081AC8FF330094B1AD /* AgentProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2EF41AC8FF330094B1AD /* AgentProcessor.cpp */; };
+		14AE2F091AC8FF330094B1AD /* AgentSerial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2EF61AC8FF330094B1AD /* AgentSerial.cpp */; };
+		14AE2F0A1AC8FF330094B1AD /* AgentStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2EF81AC8FF330094B1AD /* AgentStream.cpp */; };
+		14AE2F0B1AC8FF330094B1AD /* AgentTTY.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2EFA1AC8FF330094B1AD /* AgentTTY.cpp */; };
+		14AE2F0C1AC8FF330094B1AD /* MesaAgent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2EFC1AC8FF330094B1AD /* MesaAgent.cpp */; };
+		14AE2F271AC9279A0094B1AD /* DawnAboutBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2F1B1AC9279A0094B1AD /* DawnAboutBox.cpp */; };
+		14AE2F281AC9279A0094B1AD /* DawnApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2F1D1AC9279A0094B1AD /* DawnApp.cpp */; };
+		14AE2F291AC9279A0094B1AD /* DawnFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2F1F1AC9279A0094B1AD /* DawnFrame.cpp */; };
+		14AE2F2A1AC9279A0094B1AD /* DawnView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2F211AC9279A0094B1AD /* DawnView.cpp */; };
+		14AE2F2B1AC9279A0094B1AD /* StdAfx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2F231AC9279A0094B1AD /* StdAfx.cpp */; };
+		14AE2F2C1AC9279A0094B1AD /* XNSDriverClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14AE2F251AC9279A0094B1AD /* XNSDriverClient.cpp */; };
 		14DBCA2319290D7100F88F76 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DBCA2219290D7100F88F76 /* Cocoa.framework */; };
 		14DBCA2D19290D7200F88F76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14DBCA2B19290D7200F88F76 /* InfoPlist.strings */; };
 		14DBCA2F19290D7200F88F76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DBCA2E19290D7200F88F76 /* main.m */; };
@@ -31,6 +67,90 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14AE2E931AC7FE040094B1AD /* MP__InlineGlue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MP__InlineGlue.c; sourceTree = "<group>"; };
+		14AE2E941AC7FE040094B1AD /* MP_AssignmentInstructions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MP_AssignmentInstructions.c; sourceTree = "<group>"; };
+		14AE2E951AC7FE040094B1AD /* MP_BlockTransfers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MP_BlockTransfers.c; sourceTree = "<group>"; };
+		14AE2E961AC7FE040094B1AD /* MP_ControlTransfers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MP_ControlTransfers.c; sourceTree = "<group>"; };
+		14AE2E971AC7FE040094B1AD /* MP_InstructionInterpreter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MP_InstructionInterpreter.c; sourceTree = "<group>"; };
+		14AE2E981AC7FE040094B1AD /* MP_JumpInstructions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MP_JumpInstructions.c; sourceTree = "<group>"; };
+		14AE2E991AC7FE040094B1AD /* MP_MemoryOrganization.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MP_MemoryOrganization.c; sourceTree = "<group>"; };
+		14AE2E9A1AC7FE040094B1AD /* MP_Processes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MP_Processes.c; sourceTree = "<group>"; };
+		14AE2E9B1AC7FE040094B1AD /* MP_ProcessorStruct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MP_ProcessorStruct.c; sourceTree = "<group>"; };
+		14AE2E9C1AC7FE050094B1AD /* MP_StackInstructions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MP_StackInstructions.c; sourceTree = "<group>"; };
+		14AE2E9D1AC7FE050094B1AD /* MP_Undocumented.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MP_Undocumented.c; sourceTree = "<group>"; };
+		14AE2EA01AC7FE050094B1AD /* MP_AssignmentInstructions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_AssignmentInstructions.h; sourceTree = "<group>"; };
+		14AE2EA11AC7FE050094B1AD /* MP_AssignmentInstructions_Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_AssignmentInstructions_Inline.h; sourceTree = "<group>"; };
+		14AE2EA21AC7FE050094B1AD /* MP_BlockTransfers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_BlockTransfers.h; sourceTree = "<group>"; };
+		14AE2EA31AC7FE050094B1AD /* MP_BlockTransfers_Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_BlockTransfers_Inline.h; sourceTree = "<group>"; };
+		14AE2EA41AC7FE050094B1AD /* MP_ControlTransfers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_ControlTransfers.h; sourceTree = "<group>"; };
+		14AE2EA51AC7FE050094B1AD /* MP_ControlTransfers_Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_ControlTransfers_Inline.h; sourceTree = "<group>"; };
+		14AE2EA61AC7FE050094B1AD /* MP_DataTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_DataTypes.h; sourceTree = "<group>"; };
+		14AE2EA71AC7FE050094B1AD /* MP_DataTypes_Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_DataTypes_Inline.h; sourceTree = "<group>"; };
+		14AE2EA81AC7FE050094B1AD /* MP_InstructionInterpreter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_InstructionInterpreter.h; sourceTree = "<group>"; };
+		14AE2EA91AC7FE050094B1AD /* MP_InstructionInterpreter_Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_InstructionInterpreter_Inline.h; sourceTree = "<group>"; };
+		14AE2EAA1AC7FE050094B1AD /* MP_JumpInstructions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_JumpInstructions.h; sourceTree = "<group>"; };
+		14AE2EAB1AC7FE050094B1AD /* MP_JumpInstructions_Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_JumpInstructions_Inline.h; sourceTree = "<group>"; };
+		14AE2EAC1AC7FE050094B1AD /* MP_MemoryOrganization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_MemoryOrganization.h; sourceTree = "<group>"; };
+		14AE2EAD1AC7FE050094B1AD /* MP_MemoryOrganization_Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_MemoryOrganization_Inline.h; sourceTree = "<group>"; };
+		14AE2EAE1AC7FE050094B1AD /* MP_MesaTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_MesaTypes.h; sourceTree = "<group>"; };
+		14AE2EAF1AC7FE050094B1AD /* MP_Processes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_Processes.h; sourceTree = "<group>"; };
+		14AE2EB01AC7FE050094B1AD /* MP_Processes_Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_Processes_Inline.h; sourceTree = "<group>"; };
+		14AE2EB11AC7FE050094B1AD /* MP_ProcessorStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_ProcessorStruct.h; sourceTree = "<group>"; };
+		14AE2EB21AC7FE050094B1AD /* MP_ProcessorStruct_Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_ProcessorStruct_Inline.h; sourceTree = "<group>"; };
+		14AE2EB31AC7FE050094B1AD /* MP_StackInstructions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_StackInstructions.h; sourceTree = "<group>"; };
+		14AE2EB41AC7FE050094B1AD /* MP_StackInstructions_Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_StackInstructions_Inline.h; sourceTree = "<group>"; };
+		14AE2EB51AC7FE050094B1AD /* MP_Undocumented.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_Undocumented.h; sourceTree = "<group>"; };
+		14AE2EB61AC7FE050094B1AD /* MP_Undocumented_Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP_Undocumented_Inline.h; sourceTree = "<group>"; };
+		14AE2EB71AC7FE050094B1AD /* PrincOps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrincOps.h; sourceTree = "<group>"; };
+		14AE2EB81AC7FE050094B1AD /* PrincOps_Microcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrincOps_Microcode.h; sourceTree = "<group>"; };
+		14AE2EB91AC7FE050094B1AD /* PrincOps_PlatformTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrincOps_PlatformTypes.h; sourceTree = "<group>"; };
+		14AE2EBC1AC7FE050094B1AD /* PrincOps.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PrincOps.c; sourceTree = "<group>"; };
+		14AE2ED91AC8FDC20094B1AD /* MesaMicrocode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MesaMicrocode.cpp; sourceTree = "<group>"; };
+		14AE2EDA1AC8FDC20094B1AD /* MesaMicrocode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MesaMicrocode.h; sourceTree = "<group>"; };
+		14AE2EDB1AC8FDC20094B1AD /* MesaMicrocodeOps.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MesaMicrocodeOps.cpp; sourceTree = "<group>"; };
+		14AE2EDC1AC8FDC20094B1AD /* MesaMicrocodeOps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MesaMicrocodeOps.h; sourceTree = "<group>"; };
+		14AE2EDD1AC8FDC20094B1AD /* MesaProcessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MesaProcessor.cpp; sourceTree = "<group>"; };
+		14AE2EDE1AC8FDC20094B1AD /* MesaProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MesaProcessor.h; sourceTree = "<group>"; };
+		14AE2EE21AC8FF330094B1AD /* AgentBeep.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AgentBeep.cpp; sourceTree = "<group>"; };
+		14AE2EE31AC8FF330094B1AD /* AgentBeep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentBeep.h; sourceTree = "<group>"; };
+		14AE2EE41AC8FF330094B1AD /* AgentDisk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AgentDisk.cpp; sourceTree = "<group>"; };
+		14AE2EE51AC8FF330094B1AD /* AgentDisk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentDisk.h; sourceTree = "<group>"; };
+		14AE2EE61AC8FF330094B1AD /* AgentDisplay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AgentDisplay.cpp; sourceTree = "<group>"; };
+		14AE2EE71AC8FF330094B1AD /* AgentDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentDisplay.h; sourceTree = "<group>"; };
+		14AE2EE81AC8FF330094B1AD /* AgentFloppy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AgentFloppy.cpp; sourceTree = "<group>"; };
+		14AE2EE91AC8FF330094B1AD /* AgentFloppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentFloppy.h; sourceTree = "<group>"; };
+		14AE2EEA1AC8FF330094B1AD /* AgentKeyboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AgentKeyboard.cpp; sourceTree = "<group>"; };
+		14AE2EEB1AC8FF330094B1AD /* AgentKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentKeyboard.h; sourceTree = "<group>"; };
+		14AE2EEC1AC8FF330094B1AD /* AgentMouse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AgentMouse.cpp; sourceTree = "<group>"; };
+		14AE2EED1AC8FF330094B1AD /* AgentMouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentMouse.h; sourceTree = "<group>"; };
+		14AE2EEE1AC8FF330094B1AD /* AgentNetwork.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AgentNetwork.cpp; sourceTree = "<group>"; };
+		14AE2EEF1AC8FF330094B1AD /* AgentNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentNetwork.h; sourceTree = "<group>"; };
+		14AE2EF01AC8FF330094B1AD /* AgentNetwork.orig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AgentNetwork.orig.cpp; sourceTree = "<group>"; };
+		14AE2EF11AC8FF330094B1AD /* AgentNetworkNew.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AgentNetworkNew.cpp; sourceTree = "<group>"; };
+		14AE2EF21AC8FF330094B1AD /* AgentParallel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AgentParallel.cpp; sourceTree = "<group>"; };
+		14AE2EF31AC8FF330094B1AD /* AgentParallel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentParallel.h; sourceTree = "<group>"; };
+		14AE2EF41AC8FF330094B1AD /* AgentProcessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AgentProcessor.cpp; sourceTree = "<group>"; };
+		14AE2EF51AC8FF330094B1AD /* AgentProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentProcessor.h; sourceTree = "<group>"; };
+		14AE2EF61AC8FF330094B1AD /* AgentSerial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AgentSerial.cpp; sourceTree = "<group>"; };
+		14AE2EF71AC8FF330094B1AD /* AgentSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentSerial.h; sourceTree = "<group>"; };
+		14AE2EF81AC8FF330094B1AD /* AgentStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AgentStream.cpp; sourceTree = "<group>"; };
+		14AE2EF91AC8FF330094B1AD /* AgentStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentStream.h; sourceTree = "<group>"; };
+		14AE2EFA1AC8FF330094B1AD /* AgentTTY.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AgentTTY.cpp; sourceTree = "<group>"; };
+		14AE2EFB1AC8FF330094B1AD /* AgentTTY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentTTY.h; sourceTree = "<group>"; };
+		14AE2EFC1AC8FF330094B1AD /* MesaAgent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MesaAgent.cpp; sourceTree = "<group>"; };
+		14AE2EFD1AC8FF330094B1AD /* MesaAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MesaAgent.h; sourceTree = "<group>"; };
+		14AE2F1B1AC9279A0094B1AD /* DawnAboutBox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DawnAboutBox.cpp; sourceTree = "<group>"; };
+		14AE2F1C1AC9279A0094B1AD /* DawnAboutBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DawnAboutBox.h; sourceTree = "<group>"; };
+		14AE2F1D1AC9279A0094B1AD /* DawnApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DawnApp.cpp; sourceTree = "<group>"; };
+		14AE2F1E1AC9279A0094B1AD /* DawnApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DawnApp.h; sourceTree = "<group>"; };
+		14AE2F1F1AC9279A0094B1AD /* DawnFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DawnFrame.cpp; sourceTree = "<group>"; };
+		14AE2F201AC9279A0094B1AD /* DawnFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DawnFrame.h; sourceTree = "<group>"; };
+		14AE2F211AC9279A0094B1AD /* DawnView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DawnView.cpp; sourceTree = "<group>"; };
+		14AE2F221AC9279A0094B1AD /* DawnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DawnView.h; sourceTree = "<group>"; };
+		14AE2F231AC9279A0094B1AD /* StdAfx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StdAfx.cpp; sourceTree = "<group>"; };
+		14AE2F241AC9279A0094B1AD /* StdAfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StdAfx.h; sourceTree = "<group>"; };
+		14AE2F251AC9279A0094B1AD /* XNSDriverClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XNSDriverClient.cpp; sourceTree = "<group>"; };
+		14AE2F261AC9279A0094B1AD /* XNSDriverClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNSDriverClient.h; sourceTree = "<group>"; };
 		14DBCA1F19290D7100F88F76 /* Dawn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dawn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14DBCA2219290D7100F88F76 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		14DBCA2519290D7200F88F76 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -73,6 +193,141 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14AE2E921AC7FDD10094B1AD /* PrincOps */ = {
+			isa = PBXGroup;
+			children = (
+				14AE2E931AC7FE040094B1AD /* MP__InlineGlue.c */,
+				14AE2E941AC7FE040094B1AD /* MP_AssignmentInstructions.c */,
+				14AE2E951AC7FE040094B1AD /* MP_BlockTransfers.c */,
+				14AE2E961AC7FE040094B1AD /* MP_ControlTransfers.c */,
+				14AE2E971AC7FE040094B1AD /* MP_InstructionInterpreter.c */,
+				14AE2E981AC7FE040094B1AD /* MP_JumpInstructions.c */,
+				14AE2E991AC7FE040094B1AD /* MP_MemoryOrganization.c */,
+				14AE2E9A1AC7FE040094B1AD /* MP_Processes.c */,
+				14AE2E9B1AC7FE040094B1AD /* MP_ProcessorStruct.c */,
+				14AE2E9C1AC7FE050094B1AD /* MP_StackInstructions.c */,
+				14AE2E9D1AC7FE050094B1AD /* MP_Undocumented.c */,
+				14AE2E9E1AC7FE050094B1AD /* PrincOps */,
+				14AE2EBC1AC7FE050094B1AD /* PrincOps.c */,
+			);
+			name = PrincOps;
+			sourceTree = "<group>";
+		};
+		14AE2E9E1AC7FE050094B1AD /* PrincOps */ = {
+			isa = PBXGroup;
+			children = (
+				14AE2E9F1AC7FE050094B1AD /* MP */,
+				14AE2EB71AC7FE050094B1AD /* PrincOps.h */,
+				14AE2EB81AC7FE050094B1AD /* PrincOps_Microcode.h */,
+				14AE2EB91AC7FE050094B1AD /* PrincOps_PlatformTypes.h */,
+			);
+			path = PrincOps;
+			sourceTree = "<group>";
+		};
+		14AE2E9F1AC7FE050094B1AD /* MP */ = {
+			isa = PBXGroup;
+			children = (
+				14AE2EA01AC7FE050094B1AD /* MP_AssignmentInstructions.h */,
+				14AE2EA11AC7FE050094B1AD /* MP_AssignmentInstructions_Inline.h */,
+				14AE2EA21AC7FE050094B1AD /* MP_BlockTransfers.h */,
+				14AE2EA31AC7FE050094B1AD /* MP_BlockTransfers_Inline.h */,
+				14AE2EA41AC7FE050094B1AD /* MP_ControlTransfers.h */,
+				14AE2EA51AC7FE050094B1AD /* MP_ControlTransfers_Inline.h */,
+				14AE2EA61AC7FE050094B1AD /* MP_DataTypes.h */,
+				14AE2EA71AC7FE050094B1AD /* MP_DataTypes_Inline.h */,
+				14AE2EA81AC7FE050094B1AD /* MP_InstructionInterpreter.h */,
+				14AE2EA91AC7FE050094B1AD /* MP_InstructionInterpreter_Inline.h */,
+				14AE2EAA1AC7FE050094B1AD /* MP_JumpInstructions.h */,
+				14AE2EAB1AC7FE050094B1AD /* MP_JumpInstructions_Inline.h */,
+				14AE2EAC1AC7FE050094B1AD /* MP_MemoryOrganization.h */,
+				14AE2EAD1AC7FE050094B1AD /* MP_MemoryOrganization_Inline.h */,
+				14AE2EAE1AC7FE050094B1AD /* MP_MesaTypes.h */,
+				14AE2EAF1AC7FE050094B1AD /* MP_Processes.h */,
+				14AE2EB01AC7FE050094B1AD /* MP_Processes_Inline.h */,
+				14AE2EB11AC7FE050094B1AD /* MP_ProcessorStruct.h */,
+				14AE2EB21AC7FE050094B1AD /* MP_ProcessorStruct_Inline.h */,
+				14AE2EB31AC7FE050094B1AD /* MP_StackInstructions.h */,
+				14AE2EB41AC7FE050094B1AD /* MP_StackInstructions_Inline.h */,
+				14AE2EB51AC7FE050094B1AD /* MP_Undocumented.h */,
+				14AE2EB61AC7FE050094B1AD /* MP_Undocumented_Inline.h */,
+			);
+			path = MP;
+			sourceTree = "<group>";
+		};
+		14AE2ECA1AC8ACBA0094B1AD /* XNSDriver */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = XNSDriver;
+			sourceTree = "<group>";
+		};
+		14AE2ED71AC8FD8E0094B1AD /* MesaAgent */ = {
+			isa = PBXGroup;
+			children = (
+				14AE2EE21AC8FF330094B1AD /* AgentBeep.cpp */,
+				14AE2EE31AC8FF330094B1AD /* AgentBeep.h */,
+				14AE2EE41AC8FF330094B1AD /* AgentDisk.cpp */,
+				14AE2EE51AC8FF330094B1AD /* AgentDisk.h */,
+				14AE2EE61AC8FF330094B1AD /* AgentDisplay.cpp */,
+				14AE2EE71AC8FF330094B1AD /* AgentDisplay.h */,
+				14AE2EE81AC8FF330094B1AD /* AgentFloppy.cpp */,
+				14AE2EE91AC8FF330094B1AD /* AgentFloppy.h */,
+				14AE2EEA1AC8FF330094B1AD /* AgentKeyboard.cpp */,
+				14AE2EEB1AC8FF330094B1AD /* AgentKeyboard.h */,
+				14AE2EEC1AC8FF330094B1AD /* AgentMouse.cpp */,
+				14AE2EED1AC8FF330094B1AD /* AgentMouse.h */,
+				14AE2EEE1AC8FF330094B1AD /* AgentNetwork.cpp */,
+				14AE2EEF1AC8FF330094B1AD /* AgentNetwork.h */,
+				14AE2EF01AC8FF330094B1AD /* AgentNetwork.orig.cpp */,
+				14AE2EF11AC8FF330094B1AD /* AgentNetworkNew.cpp */,
+				14AE2EF21AC8FF330094B1AD /* AgentParallel.cpp */,
+				14AE2EF31AC8FF330094B1AD /* AgentParallel.h */,
+				14AE2EF41AC8FF330094B1AD /* AgentProcessor.cpp */,
+				14AE2EF51AC8FF330094B1AD /* AgentProcessor.h */,
+				14AE2EF61AC8FF330094B1AD /* AgentSerial.cpp */,
+				14AE2EF71AC8FF330094B1AD /* AgentSerial.h */,
+				14AE2EF81AC8FF330094B1AD /* AgentStream.cpp */,
+				14AE2EF91AC8FF330094B1AD /* AgentStream.h */,
+				14AE2EFA1AC8FF330094B1AD /* AgentTTY.cpp */,
+				14AE2EFB1AC8FF330094B1AD /* AgentTTY.h */,
+				14AE2EFC1AC8FF330094B1AD /* MesaAgent.cpp */,
+				14AE2EFD1AC8FF330094B1AD /* MesaAgent.h */,
+			);
+			name = MesaAgent;
+			sourceTree = "<group>";
+		};
+		14AE2ED81AC8FD9F0094B1AD /* MesaProcessor */ = {
+			isa = PBXGroup;
+			children = (
+				14AE2ED91AC8FDC20094B1AD /* MesaMicrocode.cpp */,
+				14AE2EDA1AC8FDC20094B1AD /* MesaMicrocode.h */,
+				14AE2EDB1AC8FDC20094B1AD /* MesaMicrocodeOps.cpp */,
+				14AE2EDC1AC8FDC20094B1AD /* MesaMicrocodeOps.h */,
+				14AE2EDD1AC8FDC20094B1AD /* MesaProcessor.cpp */,
+				14AE2EDE1AC8FDC20094B1AD /* MesaProcessor.h */,
+			);
+			name = MesaProcessor;
+			sourceTree = "<group>";
+		};
+		14AE2F1A1AC9279A0094B1AD /* AppFramework */ = {
+			isa = PBXGroup;
+			children = (
+				14AE2F1B1AC9279A0094B1AD /* DawnAboutBox.cpp */,
+				14AE2F1C1AC9279A0094B1AD /* DawnAboutBox.h */,
+				14AE2F1D1AC9279A0094B1AD /* DawnApp.cpp */,
+				14AE2F1E1AC9279A0094B1AD /* DawnApp.h */,
+				14AE2F1F1AC9279A0094B1AD /* DawnFrame.cpp */,
+				14AE2F201AC9279A0094B1AD /* DawnFrame.h */,
+				14AE2F211AC9279A0094B1AD /* DawnView.cpp */,
+				14AE2F221AC9279A0094B1AD /* DawnView.h */,
+				14AE2F231AC9279A0094B1AD /* StdAfx.cpp */,
+				14AE2F241AC9279A0094B1AD /* StdAfx.h */,
+				14AE2F251AC9279A0094B1AD /* XNSDriverClient.cpp */,
+				14AE2F261AC9279A0094B1AD /* XNSDriverClient.h */,
+			);
+			path = AppFramework;
+			sourceTree = "<group>";
+		};
 		14DBCA1619290D7100F88F76 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +370,11 @@
 		14DBCA2819290D7200F88F76 /* Dawn */ = {
 			isa = PBXGroup;
 			children = (
+				14AE2F1A1AC9279A0094B1AD /* AppFramework */,
+				14AE2ED81AC8FD9F0094B1AD /* MesaProcessor */,
+				14AE2ED71AC8FD8E0094B1AD /* MesaAgent */,
+				14AE2ECA1AC8ACBA0094B1AD /* XNSDriver */,
+				14AE2E921AC7FDD10094B1AD /* PrincOps */,
 				14DBCA3419290D7200F88F76 /* DNAppDelegate.h */,
 				14DBCA3519290D7200F88F76 /* DNAppDelegate.m */,
 				14DBCA3719290D7200F88F76 /* MainMenu.xib */,
@@ -253,8 +513,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14AE2EC11AC7FE050094B1AD /* MP_InstructionInterpreter.c in Sources */,
+				14AE2EC31AC7FE050094B1AD /* MP_MemoryOrganization.c in Sources */,
+				14AE2F281AC9279A0094B1AD /* DawnApp.cpp in Sources */,
+				14AE2F291AC9279A0094B1AD /* DawnFrame.cpp in Sources */,
+				14AE2F041AC8FF330094B1AD /* AgentNetwork.cpp in Sources */,
+				14AE2EE01AC8FDC20094B1AD /* MesaMicrocodeOps.cpp in Sources */,
+				14AE2F2A1AC9279A0094B1AD /* DawnView.cpp in Sources */,
+				14AE2EE11AC8FDC20094B1AD /* MesaProcessor.cpp in Sources */,
 				14DBCA3619290D7200F88F76 /* DNAppDelegate.m in Sources */,
+				14AE2EC01AC7FE050094B1AD /* MP_ControlTransfers.c in Sources */,
+				14AE2F001AC8FF330094B1AD /* AgentDisplay.cpp in Sources */,
+				14AE2EC21AC7FE050094B1AD /* MP_JumpInstructions.c in Sources */,
+				14AE2EFE1AC8FF330094B1AD /* AgentBeep.cpp in Sources */,
+				14AE2F071AC8FF330094B1AD /* AgentParallel.cpp in Sources */,
+				14AE2F051AC8FF330094B1AD /* AgentNetwork.orig.cpp in Sources */,
+				14AE2F0B1AC8FF330094B1AD /* AgentTTY.cpp in Sources */,
+				14AE2EDF1AC8FDC20094B1AD /* MesaMicrocode.cpp in Sources */,
+				14AE2F011AC8FF330094B1AD /* AgentFloppy.cpp in Sources */,
+				14AE2F271AC9279A0094B1AD /* DawnAboutBox.cpp in Sources */,
+				14AE2F081AC8FF330094B1AD /* AgentProcessor.cpp in Sources */,
+				14AE2EC71AC7FE050094B1AD /* MP_Undocumented.c in Sources */,
+				14AE2F031AC8FF330094B1AD /* AgentMouse.cpp in Sources */,
 				14DBCA2F19290D7200F88F76 /* main.m in Sources */,
+				14AE2F0C1AC8FF330094B1AD /* MesaAgent.cpp in Sources */,
+				14AE2EC91AC7FE050094B1AD /* PrincOps.c in Sources */,
+				14AE2F091AC8FF330094B1AD /* AgentSerial.cpp in Sources */,
+				14AE2EC61AC7FE050094B1AD /* MP_StackInstructions.c in Sources */,
+				14AE2EFF1AC8FF330094B1AD /* AgentDisk.cpp in Sources */,
+				14AE2F2C1AC9279A0094B1AD /* XNSDriverClient.cpp in Sources */,
+				14AE2EBF1AC7FE050094B1AD /* MP_BlockTransfers.c in Sources */,
+				14AE2F2B1AC9279A0094B1AD /* StdAfx.cpp in Sources */,
+				14AE2EBE1AC7FE050094B1AD /* MP_AssignmentInstructions.c in Sources */,
+				14AE2EC51AC7FE050094B1AD /* MP_ProcessorStruct.c in Sources */,
+				14AE2EC41AC7FE050094B1AD /* MP_Processes.c in Sources */,
+				14AE2F061AC8FF330094B1AD /* AgentNetworkNew.cpp in Sources */,
+				14AE2F0A1AC8FF330094B1AD /* AgentStream.cpp in Sources */,
+				14AE2F021AC8FF330094B1AD /* AgentKeyboard.cpp in Sources */,
+				14AE2EBD1AC7FE050094B1AD /* MP__InlineGlue.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +763,7 @@
 				14DBCA5219290D7300F88F76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14DBCA5319290D7300F88F76 /* Build configuration list for PBXNativeTarget "DawnTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +772,7 @@
 				14DBCA5519290D7300F88F76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
